@@ -1265,46 +1265,82 @@ const About = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "mb-10 max-w-2xl font-Ovo",
-                                children: "I am a passionate software developer with a strong background in web development and a keen interest in creating intuitive and dynamic user experiences. I have experience working with various technologies including JavaScript, React, and Next.js, and I am always eager to learn and explore new tools and frameworks to enhance my skills and deliver high-quality projects."
+                                children: "I am a passionate software developer with a strong background in web development and a keen interest in creating intuitive and dynamic user experiences."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/About.jsx",
                                 lineNumber: 20,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                className: "grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl ",
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["infoList"].map(({ icon, iconDark, title, description }, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                        className: "border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 src: icon,
-                                                alt: title
+                                                alt: title,
+                                                className: "w-7 mt-3"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/About.jsx",
-                                                lineNumber: 31,
+                                                lineNumber: 28,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "my-4 font-semibold text-gray-700",
                                                 children: title
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/About.jsx",
-                                                lineNumber: 32,
+                                                lineNumber: 29,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-600 text-sm ",
                                                 children: description
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/About.jsx",
-                                                lineNumber: 33,
+                                                lineNumber: 30,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/app/components/About.jsx",
-                                        lineNumber: 30,
+                                        lineNumber: 27,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/components/About.jsx",
-                                lineNumber: 28,
+                                lineNumber: 25,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                className: "my-6 text-gray-700 font-Ovo",
+                                children: "Tools I used"
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/About.jsx",
+                                lineNumber: 34,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                className: "flex items-center gap-3 sm:gap-5",
+                                children: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toolsData"].map((tool, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                        className: "flex items-center justify-center w-12 sm:w-14 aspect-square border  border-gray-400  rounded-lg cursor-pointer  hover:-translate-y-1 duration-500",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            src: tool,
+                                            alt: "Tools",
+                                            className: "w-5 sm:w-7"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/components/About.jsx",
+                                            lineNumber: 39,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, index, false, {
+                                        fileName: "[project]/app/components/About.jsx",
+                                        lineNumber: 37,
+                                        columnNumber: 15
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/About.jsx",
+                                lineNumber: 35,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1491,6 +1527,7 @@ var _s = __turbopack_refresh__.signature();
 ;
 const NavBar = ()=>{
     _s();
+    const [isScroll, setIsScroll] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const sideMenuRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])();
     const openMenu = ()=>{
         sideMenuRef.current.style.transform = "translateX(0)";
@@ -1498,6 +1535,19 @@ const NavBar = ()=>{
     const closeMenu = ()=>{
         sideMenuRef.current.style.transform = "translateX(100%)";
     };
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "NavBar.useEffect": ()=>{
+            window.addEventListener('scroll', {
+                "NavBar.useEffect": ()=>{
+                    if (scrollY > 50) {
+                        setIsScroll(true);
+                    } else {
+                        setIsScroll(false);
+                    }
+                }
+            }["NavBar.useEffect"]);
+        }
+    }["NavBar.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1508,16 +1558,16 @@ const NavBar = ()=>{
                     className: "w-full"
                 }, void 0, false, {
                     fileName: "[project]/app/components/NavBar.jsx",
-                    lineNumber: 19,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/NavBar.jsx",
-                lineNumber: 18,
+                lineNumber: 30,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                className: "w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50",
+                className: `w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#top",
@@ -1527,16 +1577,16 @@ const NavBar = ()=>{
                             className: "w-28 cursor-pointer mr-14"
                         }, void 0, false, {
                             fileName: "[project]/app/components/NavBar.jsx",
-                            lineNumber: 23,
+                            lineNumber: 35,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/components/NavBar.jsx",
-                        lineNumber: 22,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        className: "hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50",
+                        className: `hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : " bg-white shadow-sm bg-opacity-50"}`,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1545,12 +1595,12 @@ const NavBar = ()=>{
                                     children: "Home"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 31,
+                                    lineNumber: 43,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 30,
+                                lineNumber: 42,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1560,12 +1610,12 @@ const NavBar = ()=>{
                                     children: "About me"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 36,
+                                    lineNumber: 48,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 35,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1575,12 +1625,12 @@ const NavBar = ()=>{
                                     children: "Services"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 41,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 40,
+                                lineNumber: 52,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1590,12 +1640,12 @@ const NavBar = ()=>{
                                     children: "My Work"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 46,
+                                    lineNumber: 58,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 45,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1605,18 +1655,18 @@ const NavBar = ()=>{
                                     children: "Contact me"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 51,
+                                    lineNumber: 63,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 50,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/NavBar.jsx",
-                        lineNumber: 29,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1629,12 +1679,12 @@ const NavBar = ()=>{
                                     className: "w-6 h-6"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 59,
+                                    lineNumber: 71,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 58,
+                                lineNumber: 70,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1649,13 +1699,13 @@ const NavBar = ()=>{
                                         className: "w-3"
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/NavBar.jsx",
-                                        lineNumber: 67,
+                                        lineNumber: 79,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 62,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1667,18 +1717,18 @@ const NavBar = ()=>{
                                     className: "w-6 h-6"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 71,
+                                    lineNumber: 83,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 70,
+                                lineNumber: 82,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/NavBar.jsx",
-                        lineNumber: 57,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1694,12 +1744,12 @@ const NavBar = ()=>{
                                     className: "w-4 h-4 cursor-pointer"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 81,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 80,
+                                lineNumber: 92,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1710,12 +1760,12 @@ const NavBar = ()=>{
                                     children: "Home"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 89,
+                                    lineNumber: 101,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 88,
+                                lineNumber: 100,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1726,12 +1776,12 @@ const NavBar = ()=>{
                                     children: "About me"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 94,
+                                    lineNumber: 106,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 93,
+                                lineNumber: 105,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1742,12 +1792,12 @@ const NavBar = ()=>{
                                     children: "Services"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 99,
+                                    lineNumber: 111,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 98,
+                                lineNumber: 110,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1758,12 +1808,12 @@ const NavBar = ()=>{
                                     children: "My Work"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 104,
+                                    lineNumber: 116,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 103,
+                                lineNumber: 115,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1774,30 +1824,30 @@ const NavBar = ()=>{
                                     children: "Contact me"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/NavBar.jsx",
-                                    lineNumber: 109,
+                                    lineNumber: 121,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/components/NavBar.jsx",
-                                lineNumber: 108,
+                                lineNumber: 120,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/NavBar.jsx",
-                        lineNumber: 76,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/NavBar.jsx",
-                lineNumber: 21,
+                lineNumber: 33,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true);
 };
-_s(NavBar, "xJBHDimW4w5dwYMfdaN7ojMnkBE=");
+_s(NavBar, "a7wGHXgRuwB2lyOid8czY2rfnMc=");
 _c = NavBar;
 const __TURBOPACK__default__export__ = NavBar;
 var _c;
