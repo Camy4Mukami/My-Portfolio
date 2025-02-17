@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\n  \"app\": {\n    \"[project]/app/page\": [\n      \"static/media/QGYvz_MVcBeNP4NJtEtqUYLknw-s.p.17653016.woff2\",\n      \"static/media/yYLl0h7WyfzTzI443XaFxQ-s.p.b5743500.woff2\"\n    ]\n  },\n  \"appUsingSizeAdjust\": true,\n  \"pages\": {},\n  \"pagesUsingSizeAdjust\": false\n}"
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/home/mukami/Desktop/projects/My-Portfolio/app/layout":["static/media/07a54048a9278940-s.p.woff2","static/media/6003d19f21d09b15-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
